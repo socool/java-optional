@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.bcorpse.TestHelloOptional" time="0.129" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="com.bcorpse.TestHelloOptional" time="0.128" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Users/socool/.sdkman/candidates/java/8.0.181-zulu/jre/lib"/>
@@ -64,5 +64,16 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.bcorpse.TestHelloOptional" name="map_with_nulls_test" time="0.129"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="map_with_nulls_test" time="0.099"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_or_else_throw_test" time="0.002"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_flat_map_test" time="0.002"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_of_nullable_with_null_test" time="0.001"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_filter_test" time="0.002"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_map_substring_test" time="0.001"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="collect_optional_with_default_values_test" time="0.005"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="collect_optional_values_test" time="0.002"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_map_test" time="0.004"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_of_with_null_test" time="0"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_is_present_add_to_list_without_get_test" time="0.009"/>
+  <testcase classname="com.bcorpse.TestHelloOptional" name="optional_or_else_and_or_else_get_test" time="0.001"/>
 </testsuite>
