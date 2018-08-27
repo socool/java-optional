@@ -91,11 +91,11 @@ public class TestHelloOptional
 
     @Test
     public void optional_map_substring_test() {
-        Optional<String> number = Optional.of("longword");
-        Optional<String> noNumber = Optional.empty();
+        Optional<String> longword = Optional.of("longword");
+        Optional<String> noWord = Optional.empty();
 
-        Optional<String> smallerWord = number.map(s -> s.substring(0,4));
-        Optional<String> nothing = noNumber.map(s -> s.substring(0,4));
+        Optional<String> smallerWord = longword.map(s -> s.substring(0,4));
+        Optional<String> nothing = noWord.map(s -> s.substring(0,4));
 
         assertThat(smallerWord.get(), is("long"));
         assertThat(nothing.isPresent(), is(false));
