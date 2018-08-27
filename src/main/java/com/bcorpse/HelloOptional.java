@@ -4,7 +4,7 @@ package com.bcorpse;
  * Hello world!
  *
  */
-public class HelloApp
+public class HelloOptional
 {
     public static void main( String[] args )
     {
